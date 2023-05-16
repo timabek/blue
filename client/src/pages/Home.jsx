@@ -18,7 +18,7 @@ const Home = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       state.intro = false;
-    }, 4000);
+    }, 1);
 
     return () => clearTimeout(timer);
   }, []);
@@ -37,12 +37,7 @@ const Home = () => {
             >
              
 
-              <CustomButton 
-                type="filled"
-                title="Blouse / Shirt !"
-                handleClick={() => state.intro = false}
-                customStyles="w-fit px-4 py-2.5 font-bold text-sm"
-              />
+             <button  handleClick={() => state.intro = false}>.</button>
             </motion.div>
           </motion.div>
         </motion.section>
