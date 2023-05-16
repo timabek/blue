@@ -144,12 +144,8 @@ const Customizer = () => {
             className="absolute z-10 top-5 right-5"
             {...fadeAnimation}
           >
-            <CustomButton 
-              type="filled"
-              title="Go Back"
-              handleClick={() => state.intro = true}
-              customStyles="w-fit px-4 py-2.5 font-bold text-sm"
-            />
+           
+            <a href="https://remember-delta.vercel.app/"> <button className='px-2 py-1.5 flex-1 rounded-md text-white font-bold bg-[#292727]'>Go back</button></a>
           </motion.div>
 
           <motion.div

@@ -36,3 +36,18 @@ export const DecalTypes = {
     filterTab: "stylishShirt",
   },
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
