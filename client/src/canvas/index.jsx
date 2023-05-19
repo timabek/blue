@@ -49,7 +49,7 @@ const CanvasModel = () => {
         </CameraRig> 
       </Canvas> 
       <button onClick={handleDownloadClick} className="absolute bottom-1 right-4 p-2 bg-[#3e4242] text-white font-bold rounded"> 
-        Download 
+        Скачать
       </button> 
     </div> 
   ) 
